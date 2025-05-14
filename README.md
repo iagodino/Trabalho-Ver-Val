@@ -1,2 +1,2 @@
-# Trabalho-Ver-Val
+# Trabalho-Ver-Val-Sudoku
 sem ideia pra nome
