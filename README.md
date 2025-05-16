@@ -17,7 +17,7 @@ Todos apresentaram resultados esperados, e todos foram bem-sucedidos.
 
 ## Testes Incluidos
 
-##Teste valido
+ - Teste valido
 ```java
   @Test
 	@DisplayName("Teste para Sudokus validos")
@@ -36,7 +36,7 @@ Todos apresentaram resultados esperados, e todos foram bem-sucedidos.
 	}
 ```
 
-##Teste invalido pois possui posicionamento de valores não esperados
+ - Teste invalido pois possui posicionamento de valores não esperados
 ```java
   @Test
 	@DisplayName("Teste para Sudokus invalidos posicões impossiveis")
@@ -54,7 +54,7 @@ Todos apresentaram resultados esperados, e todos foram bem-sucedidos.
 		Assertions.assertFalse(Main.isValidSudoku(matrix));
 ```
 
-#Teste invalido pois tem numeros maiores que os permitidos
+ - Teste invalido pois tem numeros maiores que os permitidos
 ```java
   @Test
 	@DisplayName("Teste para Sudokus invalidos posicões impossiveis")
@@ -71,7 +71,7 @@ Todos apresentaram resultados esperados, e todos foram bem-sucedidos.
 				{8,7,9,6,4,2,1,3,5}};
 		Assertions.assertFalse(Main.isValidSudoku(matrix));
 ```
-#Teste invalido por possuir numeros repitidos
+ - Teste invalido por possuir numeros repitidos
 ```java
   @Test
 	@DisplayName("Teste para Sudokus invalidos numero repitido")
