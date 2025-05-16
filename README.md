@@ -10,10 +10,27 @@ O problemas seleciodado foi o de Nº 1383 onde nele necessario criar e enviar co
 - Maven 3.9.9
 - JUnit 5.8.1
 
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
+
 ## Testes
 
 Foram criados 9 testes unitários, cobrindo todos os aspectos possíveis do código.  
 Todos apresentaram resultados esperados, e todos foram bem-sucedidos.
+
+## Como executar
+
+1) Clone o repositório:
+
+```bash
+git clone https://github.com/iagodino/Trabalho-Ver-Val.git
+cd Trabalho-Ver-Val
+```
+2) Compile e execute os testes
+```bash
+mvn clean test
+```
 
 ## Testes Incluidos
 
